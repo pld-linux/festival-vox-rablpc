@@ -6,6 +6,7 @@ Release:	2
 License:	distributable
 Group:		Applications/Sound
 Source0:	http://www.cstr.ed.ac.uk/download/festival/1.4.2/festvox_rablpc16k.tar.gz
+# Source0-md5:	cefcdda6cd48027da36d78f2f711451b
 Requires:	festival-lex-OALD
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
