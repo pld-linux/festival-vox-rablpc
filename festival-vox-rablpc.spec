@@ -12,11 +12,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This voice provides a British RP English male voice using a
-residual excited LPC diphone synthesis method.  It uses a 
+residual excited LPC diphone synthesis method.  It uses a
 modified Oxford Advanced Learners' Dictionary for pronunciations.
 Prosodic phrasing is provided by a statistically trained model
 using part of speech and local distribution of breaks.  Intonation
-is provided by a CART tree predicting ToBI accents and an F0 
+is provided by a CART tree predicting ToBI accents and an F0
 contour generated from a model trained from natural speech. The
 duration model is also trained from data using a CART tree.
 
