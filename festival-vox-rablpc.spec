@@ -2,7 +2,7 @@ Summary:	British English male voice 'rab'
 Summary(pl):	Brytyjska odmiana jêzyka angielskiego - g³os mêski 'rab'
 Name:		festival-vox-rablpc
 Version:	0.1
-Release:	2
+Release:	3
 License:	distributable
 Group:		Applications/Sound
 Source0:	http://www.cstr.ed.ac.uk/download/festival/1.4.2/festvox_rablpc16k.tar.gz
