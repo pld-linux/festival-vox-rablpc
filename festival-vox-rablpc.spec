@@ -19,10 +19,19 @@ is provided by a CART tree predicting ToBI accents and an F0
 contour generated from a model trained from natural speech. The
 duration model is also trained from data using a CART tree.
 
+%description -l pl
+Ten pakiet udostêpnia g³os mêski dla brytyjskiej odmiany jêzyka
+angielskiego. U¿ywa wzbudzanej szcz±tkowo dwyg³oskowej metody syntezy
+LPC. U¿ywa wymowy ze zmodyfikowanego s³ownika Oxford Advanced
+Learners' Dictionary. Frazy prozodyczne s± zapewnione przez
+statystycznie nauczony model przy u¿yciu czê¶ci mowy i lokalnego
+roz³o¿enia przerw. Intonacjê zapewnia drzewo CART przewiduj±ce akcenty
+ToBI i obrys F0 generowany z modelu nauczonego na podstawie naturalnej
+mowy. Model czasów trwania jest nauczony na podstawie danych z drzewa
+CART.
+
 %prep
 %setup -q -c %{name}-%{version}
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
