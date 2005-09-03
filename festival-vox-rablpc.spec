@@ -33,7 +33,7 @@ mowy. Model czasów trwania jest nauczony na podstawie danych z drzewa
 CART.
 
 %prep
-%setup -q -c %{name}-%{version}
+%setup -q -c
 
 %install
 rm -rf $RPM_BUILD_ROOT
