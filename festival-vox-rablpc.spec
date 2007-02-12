@@ -1,5 +1,5 @@
 Summary:	British English male voice 'rab'
-Summary(pl.UTF-8):   Brytyjska odmiana języka angielskiego - głos męski 'rab'
+Summary(pl.UTF-8):	Brytyjska odmiana języka angielskiego - głos męski 'rab'
 Name:		festival-vox-rablpc
 Version:	0.1
 Release:	3
